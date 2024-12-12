@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		
+		<title>Ferreteria</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="icon" href="./Producto/logo.png" />
+	</head>
+	<body>
+		<header>
+			<h1>Ferreteria</h1>
+
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">1</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Martillo</p>
+                            <span class="precio-producto-carrito">$300</span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$300</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/Martillo.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Martillos</h2>
+					<p class="price">$300</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/paquetes de clavos.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Clavos paquete de 20 </h2>
+					<p class="price">$30</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/Inodoro.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Inodoro</h2>
+					<p class="price">$3000</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/Detornillador.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Detornillador</h2>
+					<p class="price">$300</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/Plano.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Plano</h2>
+					<p class="price">$300</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="./Producto/taladro.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Taladro electrico </h2>
+					<p class="price">$4800</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-container">
+				<div class="footer-info">
+					<p><strong>Ferretería Ejemplo</strong></p>
+					<p>Tu tienda de confianza para todo en herramientas, materiales y soluciones para el hogar.</p>
+					<p>Dirección: Calle 14, Santo Domingo , Republica Dominicana</p>
+					<p>Teléfono: +1 829 828 5577</p>
+					<p>Email: <a href="mailto:contacto@ferreteriaejemplo.com">Correo: gj2362007@gmail.com </a></p>
+				</div>
+				<div class="footer-social">
+					<p>Síguenos en nuestras redes sociales:</p>
+					<ul>
+						<li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+						<li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+						<li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="footer-hours">
+					<p><strong>Horarios:</strong></p>
+					<p>Lunes a Sábado de 8:00 AM a 7:00 PM</p>
+				</div>
+			</div>
+			<div class="footer-copy">
+				<p>&copy; 2 clavos de un tiro. Todos los derechos reservados a Gabo.</p>
+			</div>
+		</footer>
+
+        <script src="./index.js"></script>
+	</body>
+</html>
